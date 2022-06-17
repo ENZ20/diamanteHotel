@@ -1,0 +1,189 @@
+*{
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior:smooth;
+}
+
+body {
+	margin: 0;
+}
+
+ul{list-style: none;}
+
+button {
+	font-size: 1em;
+	font-weight: bold;
+	padding: 10px 20px;
+	border-radius: 18px;
+	border: 1px solid rgba(0, 0, 0, 1.0);
+	color: gray;
+	background-color: whitesmoke;
+	
+}
+button:hover {
+	color: coral;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+	background-color: white;
+	
+}
+
+#barra-navegacion, #events, #contact , #parrafo-bienvenida , #habitaciones, #kid-zone, #establishment, #events{
+	max-width: 1000px;
+	margin: auto;
+
+}
+
+header .logo {
+	font-size: 2.5em;
+	font-family: "Nanum Myeongjo" , serif;
+	padding: 40px 30px ;
+	margin: 0;
+	text-align: center;
+}
+
+
+
+header nav {
+	align-items: center;
+	/*text-align: center;*/
+	display: flex;
+	flex-direction: column;
+	padding: 25px;
+	background-color: rgb(245, 245, 245);
+	font-family: "Poppins" , sans-serif ;
+}
+header nav a{
+	color: rgb(59, 59, 59);
+}
+header nav a:hover {
+	color: rgb(219, 157, 41);
+}
+
+header nav a{
+	text-decoration: none;
+}
+
+#bienvenida {
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	height: 95vh;
+	background-image: linear-gradient(
+		0deg,
+		rgba(0,0,0,0.5),
+		rgba(0, 0, 0, 0.5)
+	),
+		url(salta-cabildo.jpg);
+	/* url("https://www.chetoba.com.ar/wp-content/uploads/2018/07/vista-nocturna-de-salta-san-berbardo.jpg");*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	font-family: "Poppins" , serif;
+	
+}
+#parrafo-bienvenida h2{
+	font-size: 2.3em;
+}
+
+#habitaciones{
+background-color: rgb(245, 245, 245);
+ display: flex;
+ flex-direction: column;
+ /*justify-content:flex-start;*/
+ align-items: center;
+ padding: 100px 0px;
+}
+#habitaciones h2{
+	font-family: "Poppins" , sans-serif;
+	font-size: 2em;
+	padding: 20px 0px;
+	margin: 0;
+	text-align: left;
+
+}
+#habitaciones p{
+	margin: 0;
+	font-family: 'Thasadith', sans-serif;
+	font-size: 1em;
+}
+
+
+
+#ficha{
+	font-family: "Poppins", sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 30px 120px;
+	
+}
+
+#text-img{
+	padding: 20px 40px ;
+	margin: 0;
+}
+
+#img-hab img{
+	height: 600px;
+	width: 350px;
+	object-fit: cover;
+	border-radius: 5px;
+	box-shadow: 5px 7px 15px rgba(143, 143, 143, 0.993);
+	
+}
+#img-hab img:hover {
+	box-shadow: 5px 7px 15px rgba(36, 36, 36, 0.993);
+}
+
+#zones{
+	
+	font-family: "Poppins", sans-serif;
+	text-align: center;
+	background-color: rgb(206, 171, 147);
+	padding:100px 0px;
+}
+#zones ul {
+	margin: 0;
+}
+#zones h4{
+	padding: 30px 20px;
+	font-size: 2em;
+}
+
+#subtitulos-chicos{
+	margin: 0;
+}
+
+
+#establishment{
+	font-family: "Poppins", sans-serif;
+	text-align: center;
+	background-color: rgb(245, 245, 245);
+	padding: 100px 0px;
+}
+
+#events{
+	font-family: "Poppins", sans-serif;
+	text-align: center;
+	background-color: rgb(245, 245, 245);
+	padding: 100px 0px;
+}
+
+#contact{
+	font-family: "Poppins", sans-serif;
+	text-align: center;
+	background-color: rgb(245, 245, 245);
+	padding: 100px 0px;
+}
+
+#ask{
+	font-family: "Poppins", sans-serif;
+	text-align: center;
+	background-color: rgb(245, 245, 245);
+	align-items: center;
+}
