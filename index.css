@@ -1,5 +1,7 @@
 *{
 	box-sizing: border-box;
+	margin: 0;
+	display: inline-block;
 }
 html {
 	scroll-behavior:smooth;
@@ -99,7 +101,7 @@ background-color: rgb(245, 245, 245);
 }
 #habitaciones h2{
 	font-family: "Poppins" , sans-serif;
-	font-size: 2em;
+	font-size: 2vh;
 	padding: 20px 0px;
 	margin: 0;
 	text-align: left;
@@ -108,7 +110,7 @@ background-color: rgb(245, 245, 245);
 #habitaciones p{
 	margin: 0;
 	font-family: 'Thasadith', sans-serif;
-	font-size: 1em;
+	font-size: .7em;
 }
 
 
@@ -129,8 +131,8 @@ background-color: rgb(245, 245, 245);
 }
 
 #img-hab img{
-	height: 600px;
-	width: 350px;
+	height: 400px;
+	width: 250px;
 	object-fit: cover;
 	border-radius: 5px;
 	box-shadow: 5px 7px 15px rgba(143, 143, 143, 0.993);
@@ -144,15 +146,16 @@ background-color: rgb(245, 245, 245);
 	
 	font-family: "Poppins", sans-serif;
 	text-align: center;
-	background-color: rgb(206, 171, 147);
-	padding:100px 0px;
+	background-color:  rgb(245, 181, 139);
+	padding:20px 0px;
 }
 #zones ul {
 	margin: 0;
 }
 #zones h4{
-	padding: 30px 20px;
-	font-size: 2em;
+	padding: 50px 0px;
+	font-size: 2vh;
+	color: white;
 }
 
 #subtitulos-chicos{
@@ -163,8 +166,22 @@ background-color: rgb(245, 245, 245);
 #establishment{
 	font-family: "Poppins", sans-serif;
 	text-align: center;
-	background-color: rgb(245, 245, 245);
-	padding: 100px 0px;
+	background-color: rgb(219, 163, 126);
+	padding:20px 0px;
+}
+#establishment h4{
+	padding: 50px 0px;
+	font-size: 2vh;
+	color: white;
+}
+.card-img-overlay{
+	background-image: linear-gradient(
+		0deg,
+		rgba(0,0,0,0.5),
+		rgba(0, 0, 0, 0.5)
+	)
+	,url();
+	
 }
 
 #events{
