@@ -1,7 +1,7 @@
 *{
 	box-sizing: border-box;
 	margin: 0;
-	display: inline-block;
+	
 }
 html {
 	scroll-behavior:smooth;
@@ -80,7 +80,6 @@ header nav a{
 		rgba(0, 0, 0, 0.5)
 	),
 		url(salta-cabildo.jpg);
-	/* url("https://www.chetoba.com.ar/wp-content/uploads/2018/07/vista-nocturna-de-salta-san-berbardo.jpg");*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -92,7 +91,7 @@ header nav a{
 }
 
 #habitaciones{
-background-color: rgb(245, 245, 245);
+background-color: rgb(235, 216, 195);
  display: flex;
  flex-direction: column;
  /*justify-content:flex-start;*/
@@ -101,16 +100,16 @@ background-color: rgb(245, 245, 245);
 }
 #habitaciones h2{
 	font-family: "Poppins" , sans-serif;
-	font-size: 2vh;
+	font-size: 3vh;
 	padding: 20px 0px;
 	margin: 0;
 	text-align: left;
-
+	color: rgb(166, 94, 9);
 }
 #habitaciones p{
 	margin: 0;
 	font-family: 'Thasadith', sans-serif;
-	font-size: .7em;
+	font-size: 1 em;
 }
 
 
@@ -121,7 +120,7 @@ background-color: rgb(245, 245, 245);
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	padding: 30px 120px;
+	padding: 30px 80px;
 	
 }
 
@@ -132,11 +131,13 @@ background-color: rgb(245, 245, 245);
 
 #img-hab img{
 	height: 400px;
-	width: 250px;
+	width: 350px;
 	object-fit: cover;
 	border-radius: 5px;
-	box-shadow: 5px 7px 15px rgba(143, 143, 143, 0.993);
-	
+	box-shadow: 5px 7px 15px rgba(143, 143, 143, 0.993);	
+}
+#carouselExampleFade{
+	padding: 10px 10px;
 }
 #img-hab img:hover {
 	box-shadow: 5px 7px 15px rgba(36, 36, 36, 0.993);
@@ -146,7 +147,7 @@ background-color: rgb(245, 245, 245);
 	
 	font-family: "Poppins", sans-serif;
 	text-align: center;
-	background-color:  rgb(245, 181, 139);
+	background-color: rgb(255, 246, 234);
 	padding:20px 0px;
 }
 #zones ul {
@@ -163,16 +164,16 @@ background-color: rgb(245, 245, 245);
 }
 
 
-#establishment{
+#espacios{
 	font-family: "Poppins", sans-serif;
 	text-align: center;
-	background-color: rgb(219, 163, 126);
+	background-color: rgb(255, 238, 238);
 	padding:20px 0px;
 }
-#establishment h4{
+#espacios h4{
 	padding: 50px 0px;
 	font-size: 2vh;
-	color: white;
+	color: rgb(166, 94, 9);
 }
 .card-img-overlay{
 	background-image: linear-gradient(
@@ -187,20 +188,34 @@ background-color: rgb(245, 245, 245);
 #events{
 	font-family: "Poppins", sans-serif;
 	text-align: center;
-	background-color: rgb(245, 245, 245);
-	padding: 100px 0px;
+	background-color: rgb(235, 216, 195);
+	padding: 80px 0px;
+}
+#events div h2 {
+	padding: 30px 0px;
+	margin: 0px;
+}
+#eventoparrafo {
+	padding: 0px 90px;
+	font-size: 1.4vh;
+	margin: 0px;
 }
 
 #contact{
 	font-family: "Poppins", sans-serif;
 	text-align: center;
-	background-color: rgb(245, 245, 245);
+	background-color: rgb(73, 66, 59);
 	padding: 100px 0px;
 }
+#contact a{
+	text-decoration: none;
+	color: burlywood;
+	
+}
 
-#ask{
+/*#ask{ 									esto es para el css del contacto.html
 	font-family: "Poppins", sans-serif;
 	text-align: center;
 	background-color: rgb(245, 245, 245);
 	align-items: center;
-}
+}*/
