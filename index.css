@@ -175,7 +175,7 @@ background-color: rgb(235, 216, 195);
 #espacios h4{
 	padding: 50px 0px;
 	font-size: 2vh;
-	color: rgb(166, 94, 9);
+	color: rgb(105, 78, 78);
 }
 .card-img-overlay{
 	background-image: linear-gradient(
@@ -190,27 +190,32 @@ background-color: rgb(235, 216, 195);
 	margin: 0;
 	padding: 10px 0px;
 }
-#ubi{
+
+#ubicacion{
+	text-align: center;
 	font-family: "Poppins", sans-serif;
-	text-align: center;
-	background-color: rgb(235, 216, 195);
-	padding: 20px 10px 20px 10px;
-	background-color: rgb(255, 246, 234);
-	margin: 0 auto;
-	
-	
-	
-}
-#ubi h4{
-	text-align: center;
-	margin: 0 auto;
-	padding:10px 0px 30px 0px;
-}
-#map{
-	border-radius: 12px;
-	box-shadow: 0px 0px 10px rgba(114, 114, 114, 0.993)
+	padding: 10px 0px 5px 0px;
+	color: rgb(231, 164, 87);
 }
 
+#location{
+	overflow:hidden;
+	padding-bottom:60%;
+	position:relative;
+	height: 0;
+	margin-bottom: 50px;
+	
+}
+
+iframe{
+	left:0;
+	top:0;
+	height:100%;
+    width:100%;
+    position:absolute;
+	background-color: rgb(136, 111, 111);
+	
+}
 
 #events{
 	font-family: "Poppins", sans-serif;
