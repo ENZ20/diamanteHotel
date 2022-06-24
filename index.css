@@ -8,7 +8,9 @@ html {
 }
 
 body {
-	margin: 0;
+	margin: auto;
+	
+	
 }
 
 ul{list-style: none;}
@@ -79,7 +81,7 @@ header nav a{
 		rgba(0,0,0,0.5),
 		rgba(0, 0, 0, 0.5)
 	),
-		url(salta-cabildo.jpg);
+		url(hotel.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -156,7 +158,7 @@ background-color: rgb(235, 216, 195);
 #zones h4{
 	padding: 50px 0px;
 	font-size: 2vh;
-	color: white;
+	color: rgb(166, 94, 9);
 }
 
 #subtitulos-chicos{
@@ -184,26 +186,59 @@ background-color: rgb(235, 216, 195);
 	,url();
 	
 }
+#espacio-blanco{
+	margin: 0;
+	padding: 10px 0px;
+}
+#ubi{
+	font-family: "Poppins", sans-serif;
+	text-align: center;
+	background-color: rgb(235, 216, 195);
+	padding: 20px 10px 20px 10px;
+	background-color: rgb(255, 246, 234);
+}
+#ubi h4{
+	text-align: center;
+	margin: 0 auto;
+	padding:10px 0px 30px 0px;
+}
+#map{
+	border-radius: 12px;
+	box-shadow: 0px 0px 10px rgba(114, 114, 114, 0.993)
+}
+
 
 #events{
 	font-family: "Poppins", sans-serif;
 	text-align: center;
-	background-color: rgb(235, 216, 195);
+	/*background-color: rgb(235, 216, 195);*/
 	padding: 80px 0px;
+	background-image: linear-gradient(
+		0deg,
+		rgba(235, 216, 195, 0.767),
+		rgba(235, 216, 195, 0.767)
+	),
+		url(evento.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
 }
 #events div h2 {
-	padding: 30px 0px;
+	padding:0px 0px 60px 0px;
 	margin: 0px;
+	
 }
 #eventoparrafo {
-	padding: 0px 90px;
+	padding: 0px 70px;
 	font-size: 1.4vh;
 	margin: 0px;
+	text-align:left;
+	text-shadow: 0px 0px 10px;
 }
 
 #contact{
 	font-family: "Poppins", sans-serif;
-	text-align: center;
+	text-align:center;
 	background-color: rgb(73, 66, 59);
 	padding: 100px 0px;
 }
