@@ -99,14 +99,12 @@ background-color: rgb(255, 239, 214);
  flex-direction: column;
  /*justify-content:flex-start;*/
  align-items: center;
- padding: 100px 0px;
+ padding: 60px 0px;
 }
-.carousel-inner{
-	border-radius: 8px;
-}
+
 #habitaciones h2{
 	font-family: "Poppins" , sans-serif;
-	font-size: 3vh;
+	font-size: 30px;
 	padding: 20px 0px;
 	margin: 0;
 	text-align: left;
@@ -116,6 +114,9 @@ background-color: rgb(255, 239, 214);
 	margin: 0;
 	font-family: 'Thasadith', sans-serif;
 	font-size: 1 em;
+}
+.carousel-inner{
+	border-radius: 8px;
 }
 
 
@@ -159,8 +160,8 @@ background-color: rgb(255, 239, 214);
 
 #zones h4{
 	padding: 50px 0px;
-	font-size: 2vh;
-	color: rgb(166, 94, 9);
+	font-size: 30px;
+	color: rgb(206, 110, 0);
 }
 
 #subtitulos-chicos{
@@ -176,8 +177,8 @@ background-color: rgb(255, 239, 214);
 }
 #espacios h4{
 	padding: 50px 0px;
-	font-size: 2vh;
-	color: rgb(105, 78, 78);
+	font-size: 25px;
+	color: rgb(206, 110, 0);
 }
 .card-img-overlay{
 	background-image: linear-gradient(
@@ -186,11 +187,44 @@ background-color: rgb(255, 239, 214);
 		rgba(0, 0, 0, 0.5)
 	)
 	,url();
-	
 }
-#espacio-blanco{
-	margin: 0;
-	padding: 10px 0px;
+.card-img-overlay button a {
+	text-decoration: none;
+	color: white;
+}
+
+#events{
+	font-family: "Poppins", sans-serif;
+	text-align: center;
+	/*background-color: rgb(235, 216, 195);*/
+	padding: 80px 0px;
+	
+	
+	background-image: linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 0.6),
+		rgba(255, 238, 238, 0.979)
+	),
+		url(evento.jpg);
+		
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+
+}
+#events div h2 {
+	padding:0px 0px 60px 0px;
+	margin: 0px;
+	color: white;
+	font-size: 30px;
+}
+#eventoparrafo {
+	padding: 0px 70px;
+	font-size: 14px;
+	margin: 0px;
+	text-align:center;
+	text-shadow: 0px 0px 30px rgb(0, 0, 0);
+	color: white;
 }
 
 #ubicacion{
@@ -213,42 +247,37 @@ iframe{
 	left:0;
 	top:0;
 	height:100%;
-    width:100%;
+    width:81%;
     position:absolute;
 	background-color: rgb(136, 111, 111);
-	
+	margin-left: 10%;
 }
 
-#events{
-	font-family: "Poppins", sans-serif;
-	text-align: center;
-	/*background-color: rgb(235, 216, 195);*/
-	padding: 80px 0px;
-	background-image: linear-gradient(
-		0deg,
-		rgba(235, 216, 195, 0.041),
-		rgb(235, 216, 195)
-	),
-		url(evento.jpg);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center center;
-		
-}
-#events div h2 {
-	padding:0px 0px 60px 0px;
+.comment{
+	background-color: rgb(191, 146, 112);
 	margin: 0px;
-	
-	
+	padding-bottom: 50px;
 }
-#eventoparrafo {
-	padding: 0px 70px;
-	font-size: 1.4vh;
-	margin: 0px;
-	text-align:left;
-	text-shadow: 0px 0px 30px rgb(0, 0, 0);
+.comment h2{
 	color: white;
+	padding: 50px 0px 50px 0px;
+	text-align: center;
 }
+.comment h4{
+	color: rgb(241, 206, 131);
+	padding: 0px 30px 0px 30px;
+}
+
+.comment p{
+	color: white;
+	font-family: "Poppins", sans-serif;
+	padding: 0px 30px 0px 30px;
+	font-size: 14px;
+	margin: 0px;
+}
+
+
+
 
 .contact{
 	margin: auto;
@@ -259,13 +288,14 @@ iframe{
 	box-sizing: border-box;
 	width: auto;
 	color: rgb(255, 243, 223);
-	font-size: 14px;
+	font-size: 12px;
 }
 .contact h1{
 	color: rgb(255, 206, 126);
-	font-size: 70px;
+	font-size: 45px;
 	margin:0;
-	
+	text-align: center;
+	padding: 30px;
 }
 
 .contact h4{
@@ -291,7 +321,7 @@ iframe{
 	border-radius: 4px ;
 	padding: 12px;
 	color: rgb(88, 80, 72);
-	font-size: 14px;
+	font-size: 16px;
 	background-color: rgb(255, 206, 126) ;
 	margin: auto;
 	width: 100%;
